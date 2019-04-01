@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet/less" type="text/css" href="./styles/text_viewer.less" />
+    <link rel="stylesheet" type="text/css" href="./styles/hueRamps.css">
+    <link href="./static/font-awesome/css/all.css" rel="stylesheet"> 
+    <script src='./scripts/jquery-3.3.1.min.js'></script>
+    <script src="./scripts/less.min.js" ></script>
+</head>
+
+<body>
+    <div class="navbar">
+
+            <a class="brand" href="index.html">Serendip</a>
+            <button id="nav_corpus" class="btn">Corpus</button>
+             / 
+            <button id="nav_document" class="btn btn-primary">Document</button>
+
+
+    </div>
+    <div class="container">
+        <div id="sidebar" class="cell">
+
+            <div id="sidebar_navbar" class="navbar navbar-small">
+                <span class="brand">Tags</span>
+            </div>
+            <div id="sidebar_content">
+            </div>
+        </div>
+        <div id="main" class="cell">
+            <div id="main_navbar" class="navbar navbar-small">
+                <span class="brand">Text</span>
+            </div>
+            <div id="main_pagination"></div>
+            <div id="main_content">
+                <a class="prev"><i class="fas fa-chevron-circle-up"></i>Previous Page</a>
+                <div id="main_content_text" class="html_formatter"></div>
+                <a class="next"><i class="fas fa-chevron-circle-down"></i>Next Page</a>
+            </div>
+        </div>
+        <div id="right_sidebar" class="cell">
+            <div id="right_sidebar_navbar" class="navbar navbar-small">
+                <span class="brand">Overview</span>
+            </div>
+            <div id="right_sidebar_content">
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src='./scripts/d3.min.js'></script>
+<script src='./scripts/textViewer.js'></script>
+
+</html>

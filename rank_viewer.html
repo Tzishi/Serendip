@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>RankViewer</title>
+    <link rel="stylesheet/less" type="text/css" href="./styles/rank_viewer.less" />
+
+    <script src='./scripts/jquery-3.3.1.min.js'></script>
+    <script src="./scripts/less.min.js"></script>
+    <script src="./scripts/papaparse.min.js"></script>
+</head>
+
+<body>
+    <div id="titleBar" style="margin-left: 20px; margin-bottom:30px">
+        <h2>Serendip
+            <small>RankViewer</small>
+        </h2>
+        <div class="form-inline">
+            <input type="text" id="addWordsInput" class="form-control" style="margin-right: 10px" placeholder="Enter words separated by a space">
+            <select id="colorSelect" class="form-control">
+                <option>red</option>
+                <option>green</option>  
+                <option>blue</option>    
+                <option>orange</option>
+                <option>purple</option>
+            </select>
+            <button type="submit" id="addWordsForm" class="btn form-control">Add</button>
+        </div>
+    </div>
+    <table>
+        <tr>
+            <td>
+                <svg id="wordRankings">
+                    <g id="body"></g>
+                    <g id="xAxis"></g>
+                </svg>
+            </td>
+            <td>                
+                <svg id ="topicWords">
+                    <g id="body"></g>
+                    <g id="yAxis"></g>     
+                </svg> 
+                <p id="topicTitle" style="text-align:center; margin: 0px"></p>
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+<script src='./scripts/d3.min.js'></script>
+<script src='./scripts/rankViewer.js'></script>
+
+</html>

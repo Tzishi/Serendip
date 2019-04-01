@@ -1,0 +1,21 @@
+<div  id='doc-meta'>
+</div>
+
+<script>
+    var stat = doc_stat.get(cur_sel_doc)
+
+    var element = `<p>No selected document</p>`
+    if (cur_sel_doc != null) {
+        element = `
+        <p class=thick>${stat.filename}<p>
+        <p>Title: ${stat.Title}<p>
+        <p>Author: ${stat.Author}<p>
+        <p>Genre: ${stat.Genre}<p>
+        <p>filename: ${stat.filename}<p>
+        <p>Year: ${stat.Year}<p>
+        <p>id: ${stat.id}<p>
+        `
+    }
+        
+    $('#doc-meta').append(element)
+</script>

@@ -1,0 +1,44 @@
+/* For topic overview line graph */
+.topic_model_line_graph g use.polyline.noramp_6baed6 {stroke: #6baed6;}
+.topic_model_line_graph g use.polyline.noramp_74c476 {stroke: #74c476;}
+.topic_model_line_graph g use.polyline.noramp_fd8d3c {stroke: #fd8d3c;}
+.topic_model_line_graph g use.polyline.noramp_9e9ac8 {stroke: #9e9ac8;}
+.topic_model_line_graph g use.polyline.noramp_fb6a4a {stroke: #fb6a4a;}
+
+/* For Topic button no ramp */
+.noramp_6baed6 { background-color: #6baed6 !important; }
+.noramp_74c476 { background-color: #74c476 !important; }
+.noramp_fd8d3c { background-color: #fd8d3c !important; }
+.noramp_9e9ac8 { background-color: #9e9ac8 !important; }
+.noramp_fb6a4a { background-color: #fb6a4a !important; }
+
+/* Ramps */
+.sal1.sal6baed6 { background-color: #6baed6; }
+.sal2.sal6baed6 { background-color: #9ecae1; }
+.sal3.sal6baed6 { background-color: #c6dbef; }
+.sal4.sal6baed6 { background-color: #deebf7; }
+.sal5.sal6baed6 { background-color: #f7fbff; }
+
+.sal1.sal74c476 { background-color: #74c476; }
+.sal2.sal74c476 { background-color: #a1d99b; }
+.sal3.sal74c476 { background-color: #c7e9c0; }
+.sal4.sal74c476 { background-color: #e5f5e0; }
+.sal5.sal74c476 { background-color: #f7fcf5; }
+
+.sal1.salfd8d3c { background-color: #fd8d3c; }
+.sal2.salfd8d3c { background-color: #fdae6b; }
+.sal3.salfd8d3c { background-color: #fdd0a2; }
+.sal4.salfd8d3c { background-color: #fee6ce; }
+.sal5.salfd8d3c { background-color: #fff5eb; }
+
+.sal1.sal9e9ac8 { background-color: #9e9ac8; }
+.sal2.sal9e9ac8 { background-color: #bcbddc; }
+.sal3.sal9e9ac8 { background-color: #dadaeb; }
+.sal4.sal9e9ac8 { background-color: #efedf5; }
+.sal5.sal9e9ac8 { background-color: #fcfbfd; }
+
+.sal1.salfb6a4a { background-color: #fb6a4a; }
+.sal2.salfb6a4a { background-color: #fc9272; }
+.sal3.salfb6a4a { background-color: #fcbba1; }
+.sal4.salfb6a4a { background-color: #fee0d2; }
+.sal5.salfb6a4a { background-color: #fff5f0; }

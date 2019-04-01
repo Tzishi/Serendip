@@ -1,0 +1,21 @@
+<div id='top-meta'>
+</div>
+<script>
+    var stat = top_stat.get(cur_sel_top)
+    console.log(stat)
+    var element = `<p>No selected topic</p>`
+    if (cur_sel_top) {
+        element =
+            `
+            <p class=thick>${cur_sel_top}<p>
+            <p>min: ${stat.min.toExponential(2)}<p>
+            <p>max: ${stat.max.toExponential(2)}<p>
+            <p>median: ${stat.median.toExponential(2)}<p>
+            <p>range: ${stat.range.toExponential(2)}<p>
+            <p>variance: ${stat.variance.toExponential(2)}<p>
+            <p>numDocs: ${stat.numDocs}<p>
+            <p>mean: ${stat.mean.toExponential(2)}<p>
+            `
+    }
+    $('#top-meta').append(element)
+</script>
